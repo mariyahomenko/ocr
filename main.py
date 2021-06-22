@@ -43,125 +43,182 @@ try:
     with open('settings.txt') as file:
         s = file.readlines()
 
+        reg = re.compile('[^0-9]')
         a_y1 = s[0]
+        a_y1 = reg.sub('', a_y1)
         uimap.lineEdit_2.setText(a_y1)
         a_x1 = s[1]
+        a_x1 = reg.sub('', a_x1)
         uimap.lineEdit.setText(a_x1)
         a_y2 = s[2]
+        a_y2 = reg.sub('', a_y2)
         uimap.lineEdit_3.setText(a_y2)
         a_x2 = s[3]
+        a_x2 = reg.sub('', a_x2)
         uimap.lineEdit_4.setText(a_x2)
         a_y3 = s[4]
+        a_y3 = reg.sub('', a_y3)
         uimap.lineEdit_5.setText(a_y3)
         a_x3 = s[5]
+        a_x3 = reg.sub('', a_x3)
         uimap.lineEdit_6.setText(a_x3)
         a_y4 = s[6]
+        a_y4 = reg.sub('', a_y4)
         uimap.lineEdit_7.setText(a_y4)
         a_x4 = s[7]
+        a_x4 = reg.sub('', a_x4)
         uimap.lineEdit_10.setText(a_x4)
         a_y5 = s[8]
+        a_y5 = reg.sub('', a_y5)
         uimap.lineEdit_8.setText(a_y5)
         a_x5 = s[9]
+        a_x5 = reg.sub('', a_x5)
         uimap.lineEdit_11.setText(a_x5)
         a_y6 = s[10]
+        a_y6 = reg.sub('', a_y6)
         uimap.lineEdit_9.setText(a_y6)
         a_x6 = s[11]
+        a_x6 = reg.sub('', a_x6)
         uimap.lineEdit_12.setText(a_x6)
 
         b_y1 = s[12]
+        b_y1 = reg.sub('', b_y1)
         uimap.lineEdit_15.setText(b_y1)
         b_x1 = s[13]
+        b_x1 = reg.sub('', b_x1)
         uimap.lineEdit_22.setText(b_x1)
         b_y2 = s[14]
+        b_y2 = reg.sub('', b_y2)
         uimap.lineEdit_28.setText(b_y2)
         b_x2 = s[15]
+        b_x2 = reg.sub('', b_x2)
         uimap.lineEdit_23.setText(b_x2)
         b_y3 = s[16]
+        b_y3 = reg.sub('', b_y3)
         uimap.lineEdit_18.setText(b_y3)
         b_x3 = s[17]
+        b_x3 = reg.sub('', b_x3)
         uimap.lineEdit_20.setText(b_x3)
         b_y4 = s[18]
+        b_y4 = reg.sub('', b_y4)
         uimap.lineEdit_21.setText(b_y4)
         b_x4 = s[19]
+        b_x4 = reg.sub('', b_x4)
         uimap.lineEdit_26.setText(b_x4)
         b_y5 = s[20]
+        b_y5 = reg.sub('', b_y5)
         uimap.lineEdit_24.setText(b_y5)
         b_x5 = s[21]
+        b_x5 = reg.sub('', b_x5)
         uimap.lineEdit_17.setText(b_x5)
         b_y6 = s[22]
+        b_y6 = reg.sub('', b_y6)
         uimap.lineEdit_25.setText(b_y6)
         b_x6 = s[23]
+        b_x6 = reg.sub('', b_x6)
         uimap.lineEdit_27.setText(b_x6)
 
         c_y1 = s[24]
+        c_y1 = reg.sub('', c_y1)
         uimap.lineEdit_29.setText(c_y1)
         c_x1 = s[25]
+        c_x1 = reg.sub('', c_x1)
         uimap.lineEdit_36.setText(c_x1)
         c_y2 = s[26]
+        c_y2 = reg.sub('', c_y2)
         uimap.lineEdit_42.setText(c_y2)
         c_x2 = s[27]
+        c_x2 = reg.sub('', c_x2)
         uimap.lineEdit_37.setText(c_x2)
         c_y3 = s[28]
+        c_y3 = reg.sub('', c_y3)
         uimap.lineEdit_32.setText(c_y3)
         c_x3 = s[29]
+        c_x3 = reg.sub('', c_x3)
         uimap.lineEdit_34.setText(c_x3)
         c_y4 = s[30]
+        c_y4 = reg.sub('', c_y4)
         uimap.lineEdit_35.setText(c_y4)
         c_x4 = s[31]
+        c_x4 = reg.sub('', c_x4)
         uimap.lineEdit_40.setText(c_x4)
         c_y5 = s[32]
+        c_y5 = reg.sub('', c_y5)
         uimap.lineEdit_38.setText(c_y5)
         c_x5 = s[33]
+        c_x5 = reg.sub('', c_x5)
         uimap.lineEdit_31.setText(c_x5)
         c_y6 = s[34]
+        c_y6 = reg.sub('', c_y6)
         uimap.lineEdit_39.setText(c_y6)
         c_x6 = s[35]
+        c_x6 = reg.sub('', c_x6)
         uimap.lineEdit_41.setText(c_x6)
 
         d_y1 = s[36]
+        d_y1 = reg.sub('', d_y1)
         uimap.lineEdit_43.setText(d_y1)
         d_x1 = s[37]
+        d_x1 = reg.sub('', d_x1)
         uimap.lineEdit_50.setText(d_x1)
         d_y2 = s[38]
+        d_y2 = reg.sub('', d_y2)
         uimap.lineEdit_56.setText(d_y2)
         d_x2 = s[39]
+        d_x2 = reg.sub('', d_x2)
         uimap.lineEdit_51.setText(d_x2)
         d_y3 = s[40]
+        d_y3 = reg.sub('', d_y3)
         uimap.lineEdit_46.setText(d_y3)
         d_x3 = s[41]
+        d_x3 = reg.sub('', d_x3)
         uimap.lineEdit_48.setText(d_x3)
         d_y4 = s[42]
+        d_y4 = reg.sub('', d_y4)
         uimap.lineEdit_49.setText(d_y4)
         d_x4 = s[43]
+        d_x4 = reg.sub('', d_x4)
         uimap.lineEdit_54.setText(d_x4)
         d_y5 = s[44]
+        d_y5 = reg.sub('', d_y5)
         uimap.lineEdit_52.setText(d_y5)
         d_x5 = s[45]
+        d_x5 = reg.sub('', d_x5)
         uimap.lineEdit_45.setText(d_x5)
         d_y6 = s[46]
+        d_y6 = reg.sub('', d_y6)
         uimap.lineEdit_53.setText(d_y6)
         d_x6 = s[47]
+        d_x6 = reg.sub('', d_x6)
         uimap.lineEdit_55.setText(d_x6)
 
         w1 = s[48]
+        w1 = reg.sub('', w1)
         uimap.lineEdit_13.setText(w1)
         h1 = s[49]
+        h1 = reg.sub('', h1)
         uimap.lineEdit_14.setText(h1)
-
         w2 = s[50]
+        w2 = reg.sub('', w2)
         uimap.lineEdit_16.setText(w2)
         h2 = s[51]
+        h2 = reg.sub('', h2)
         uimap.lineEdit_19.setText(h2)
-
         w3 = s[52]
+        w3 = reg.sub('', w3)
         uimap.lineEdit_30.setText(w3)
         h3 = s[53]
+        h3 = reg.sub('', h3)
         uimap.lineEdit_33.setText(h3)
-
         w4 = s[54]
+        w4 = reg.sub('', w4)
         uimap.lineEdit_44.setText(w4)
         h4 = s[55]
+        h4 = reg.sub('', h4)
         uimap.lineEdit_47.setText(h4)
+
+        fold = s[56]
+        uiwin.lineEdit_2.setText(fold)
 
     file.close()
 except:
