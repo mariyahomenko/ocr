@@ -29,3 +29,22 @@ ocr в режиме реального времени
 ![image](https://user-images.githubusercontent.com/73564203/117895232-9ea7d500-b2c6-11eb-8edb-48ac4d49019c.png)
 
 Кнопка Start главного окна запускает потоки orc и таймера в текстовом поле, с этого момента начинается заполнение таблицы до тех пор, пока не будет нажата кнопка Stop или пока не будет заполнено заданное количество строк и колонок. 
+
+# v2 (приостановлен)
+
+![image](https://user-images.githubusercontent.com/73564203/139749476-07b578dd-4d58-4512-8548-b915f6be78f9.png)
+
+![image](https://user-images.githubusercontent.com/73564203/139749689-b981737d-4ec1-4177-a15e-ac5c15be49d4.png)
+
+![image](https://user-images.githubusercontent.com/73564203/139749903-487158c0-c27b-438b-a534-38db0f4fd361.png)
+
+![image](https://user-images.githubusercontent.com/73564203/139749954-31e8305d-2e6e-4198-b941-9a401d18bd5f.png)
+
+![image](https://user-images.githubusercontent.com/73564203/139750051-72fed28b-3384-42de-b488-31f3c4e2ad8e.png)
+
+![image](https://user-images.githubusercontent.com/73564203/139750070-328bed00-a1f4-4e70-8955-132b0f177f9e.png)
+
+
+
+
+
